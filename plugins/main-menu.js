@@ -1,4 +1,4 @@
-//Copyright ©JOANIMI/KILLUA
+.gps menu |//Copyright ©JOANIMI/KILLUA
 //https://whatsapp.com/channel/0029Vaich7vLdQeUgMMBPc13
 
 import { prepareWAMessageMedia, generateWAMessageFromContent, getDevice } from '@whiskeysockets/baileys'
@@ -11,9 +11,9 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
         var joanimiimg = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/file/efb1c82a1c11caa338b8e.jpg'}}, { upload: conn.waUploadToServer })
         const interactiveMessage = {
             body: { text: `test`.trim() },
-            footer: { text: `*MIDO-𝘽𝙤𝙩*`.trim() },  
+            footer: { text: `*Astro-𝘽𝙤𝙩*`.trim() },  
             header: {
-                title: `*┃━━━━━⬣MIDO-𝙱𝙾𝚃⬣━━━━━┃*\n\n*◞❐نورت يا حب بوت ميدو🤺🔥*\n\n*◞❐ تفضل القائمة يا  :* @${mentionId.split('@')[0]}\n\n*◞❐اسم البوت : بوت ميدوو*\n\n*◞❐موقع التنصيب : toysteik*\n\n*◞❐البوت يعمل في الخاص والجروبات*\n\n*◞❐يمنع شتم البوت*\n\n*┃━━━━━⬣Astro-𝙱𝙾𝚃⬣━━━━━┃*`,
+                title: `*┃━━━━━⬣Astro-𝙱𝙾𝚃⬣━━━━━┃*\n\n*◞❐نورت يا حب بوت استرو🤺🔥*\n\n*◞❐ تفضل القائمة يا  :* @${mentionId.split('@')[0]}\n\n*◞❐اسم البوت : بوت استرو*\n\n*◞❐موقع التنصيب : heroku*\n\n*◞❐البوت يعمل في الخاص والجروبات*\n\n*◞❐يمنع شتم البوت*\n\n*┃━━━━━⬣Astro-𝙱𝙾𝚃⬣━━━━━┃*`,
                 subtitle: ``,
                 hasMediaAttachment: true,
                 imageMessage: joanimiimg.imageMessage,
@@ -31,7 +31,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  		    rows: [
   						  		    	{
   						  		    		header: '【..≼قــســم الجروبات≽..】',
-  										      title: 'MIDO-𝙱𝙾𝚃',
+  										      title: 'Astro-𝙱𝙾𝚃',
   									    	  description: '【..≼قــســم الجروبات≽..】',
   								    		  id: '.الجروب'
   						  		    	}
@@ -42,7 +42,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				rows: [
   						  					{
   						  		    		header: '【..≼قــســم الاعضاء≽..】',
-  										      title: 'Mido-𝙱𝙾𝚃',
+  										      title: 'Astro-𝙱𝙾𝚃',
   									    	  description: '【..≼قــســم الاعضاء≽..】',
   								    		  id: '.الاعضاء'
   						  		    	}
@@ -53,7 +53,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				rows: [
   						  					{
   						  		    		header: '【..≼قــســم الانــمـــي≽..】',
-  										      title: 'MIDO-𝙱𝙾𝚃',
+  										      title: 'Astro-𝙱𝙾𝚃',
   									    	  description: '【..≼قــســم الانــمـــي≽..】',
   								    		  id: '.انيمي'
   						  		    	}
@@ -64,7 +64,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				rows: [
   						  					{
   						  		    		header: '【..≼قــســم الترفيه≽..】',
-  										      title: 'MIDO-𝙱𝙾𝚃',
+  										      title: 'Astro-𝙱𝙾𝚃',
   									    	  description: '【..≼قــســم الترفيه≽..】',
   								    		  id: '.الترفيه'
   						  		    	}
@@ -75,7 +75,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				rows: [
   						  					{
   						  		    		header: '【..≼قــســم الايديت والصور≽..】',
-  										      title: 'MIDO-𝙱𝙾𝚃',
+  										      title: 'Astro-𝙱𝙾𝚃',
   									    	  description: '【..≼قــســم الايديت والصور≽..】',
   								    		  id: '.الايديت'
   						  		    	}
@@ -86,7 +86,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				rows: [
   						  					{
   						  		    		header: '【..≼قــســم التحويلات≽..】',
-  										      title: 'MIDO-𝙱𝙾𝚃',
+  										      title: 'Astro-𝙱𝙾𝚃',
   									    	  description: '【..≼قــســم التحويلات≽..】',
   								    		  id: '.التحويلات'
   						  		    	}
@@ -97,7 +97,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				rows: [
   						  					{
   						  		    		header: '【..≼قــســم الادوات≽..】',
-  										      title: 'MIDO-𝙱𝙾𝚃',
+  										      title: 'Astro-𝙱𝙾𝚃',
   									    	  description: '【..≼قــســم الادوات≽..】',
   								    		  id: '.الاداوات'
   						  		    	}
@@ -108,7 +108,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				rows: [
   						  					{
   						  		    		header: '【..≼قــســم الدين≽..】',
-  										      title: 'MIDO-𝙱𝙾𝚃',
+  										      title: 'Astro-𝙱𝙾𝚃',
   									    	  description: '【..≼قــســم الدين≽..】',
   								    		  id: '.الدين'
   						  		    	}
@@ -119,7 +119,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
   						  				rows: [
   						  					{
   						  		    		header: '【..≼قــســم الذكاء الاصطناعي≽..】',
-  										      title: 'MIDO-𝙱𝙾𝚃',		 
+  										      title: 'Astro-𝙱𝙾𝚃',		 
                                            	  description: '【..≼قــســم الذكاء الاصطناعي≽..】',
   								    		  id: '.ذكاءاصطناعي'
   						  		    	}
@@ -138,8 +138,8 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
                               {
                                   name: 'cta_url',
                                   buttonParamsJson: JSON.stringify({
-                                      display_text: 'قناتي🤺🔥',
-                                      url: 'https://https://whatsapp.com/channel/0029Vaich7vLdQeUgMMBPc13',
+                                      display_text: 'منصاتي🤺🔥',
+                                      url: 'https://www.facebook.com/roplizer?mibextid=ZbWKwL',
                                       merchant_url: ''
                                   })
                               },
